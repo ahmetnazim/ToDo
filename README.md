@@ -90,5 +90,14 @@ Steps
 
 		you can stop the server with Cntrl + C
 
-	 
+	git add .
+    git commit -am "Firt app added"
  
+ # 7 Create Admin
+
+	python manage.py createsuperuser
+
+	Login from localhost:8000/admin 
+
+	
+	
