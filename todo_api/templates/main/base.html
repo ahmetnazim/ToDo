@@ -49,6 +49,14 @@
         <a href="/1">View</a>
     </div>
     <div id="content", name="content", class="main" >
+        <!-- {% if user.is_authenticated %}
+            {% block content %}
+            {% endblock %}
+        {% else %}
+            <p>Login<a href="/login">Here</a></p>
+        {% endif %} 
+        It is blocking also login page itself-->
+
         {% block content %}
         {% endblock %}
     </div>
